@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Protex Karting LED — simple demo page" />
+  <title>Protex Karting LED</title>
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Protex Karting LED</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome</h2>
+      <br>
+      <p>SAFE-COST-EFFECTIVE-AESTHETIC
+This is a protective barrier specially designed for indoor and outdoor <br>
+karting circuits, made of high density P.E. in 10 m pieces.</p>
+      <p><a class="btn" id="demoBtn">Contact us</a></p>
+      <p id="demoOutput" aria-live="polite"></p>
+    </section>
+
+    <!-- Background Images -->
+    <div class="image-section image-section-1"></div>
+    
+    <section>
+      <h2>Product Gallery</h2>
+      <p>High-quality protective barriers for your karting circuit.</p>
+    </section>
+
+    <div class="image-section image-section-2"></div>
+  </main>
+
+  <footer>
+    <small>&copy; <span id="year"></span> Protex Karting LED</small>
+  </footer>
+
+  <!-- App script: keep small logic inline or point to main.js -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('demoBtn').addEventListener('click', function () {
+      document.getElementById('demoOutput').textContent = 'Hello — page loaded at ' + new Date().toLocaleTimeString();
+    });
+  </script>
+
+  <!-- External script if you prefer: <script src="main.js" defer></script> -->
+</body>
+</html>
