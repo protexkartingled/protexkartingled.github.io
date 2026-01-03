@@ -62,14 +62,15 @@ section {
 h2 {
   font-size: 4rem;
   font-style: oblique;
-  margin-bottom: 2rem;
-  color: #db6262;
+  margin-bottom: 2,5rem;
+  color: #f75656;
 }
 
-p {
-  margin-bottom: 1.5rem;
-  font-size: 1rem;
+h3 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
   line-height: 1.8;
+  color: #db6262;
 }
 
 /* Buttons */
