@@ -38,8 +38,8 @@ footer {
 
 /* Header */
 header {
-  background-image: url('resources/images/IMG_8519.JPG');
-  background-size: cover;
+
+  background-color: #e7f3ff;
   color: #fff;
   padding: 2rem 1rem;
   text-align: center;
