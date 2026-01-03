@@ -62,8 +62,7 @@ main {
 
 section {
   /* Semi-transparent section so background image is visible but text stays readable */
-background-image: url('resources/images/IMG_8519.JPG');
-  background-size: cover;
+background-color: #fff;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
