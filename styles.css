@@ -9,31 +9,13 @@ body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
   color: #111;
-  /* Solid fallback color shown while video can't load */
+  /* Page background image (covers viewport and is responsive) */
   background-color: #000;
+  background-image: url('resources/images/IMG_8520.JPG');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   min-height: 100vh;
-}
-
-/* Video background container */
-.video-bg {
-  position: fixed;
-  inset: 0;
-  overflow: hidden;
-  z-index: -1; /* sit behind content and overlay */
-  pointer-events: none; /* allow clicks through to page elements */
-}
-
-.video-bg iframe {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* Ensure the iframe covers the viewport while preserving 16:9 aspect ratio */
-  width: 177.78vh; /* 100vh * (16/9) */
-  height: 100vh;
-  min-width: 100%;
-  min-height: 100%;
-  border: 0;
 }
 
 /* Dark overlay so text remains readable on top of the image */
@@ -45,6 +27,8 @@ body::before {
   pointer-events: none;
   z-index: 0;
 }
+
+
 
 /* Ensure page content is above the background/overlay */
 header,
