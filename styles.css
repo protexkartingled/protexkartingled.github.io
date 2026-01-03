@@ -130,13 +130,11 @@ p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.image-section-1 {
+/* .image-section-1 {
   background-image: url('../resources/images/IMG_8519.JPG');
-}
+} */
 
-.image-section-2 {
-  /* background-image: url('../resources/images/IMG_8517.JPG'); */
-}
+
 
 /* Footer */
 footer {
